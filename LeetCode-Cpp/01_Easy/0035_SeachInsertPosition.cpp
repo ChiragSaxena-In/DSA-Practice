@@ -14,11 +14,7 @@ public:
 
             mid = start + (end - start) / 2;
 
-            if (nums[mid] == target) {
-                return mid;
-            }
-
-            if (nums[mid] > target) {
+            if (nums[mid] >= target) {
                 // Possible insertion position
                 result = mid;
                 end = mid - 1;
@@ -36,7 +32,7 @@ public:
 Intuition:
 Apply binary search on the sorted array.
 If target is found, return its index.
-Otherwise, keep track of the smallest index where nums[mid] > target, i.e Find Upper Bound.
+Otherwise, keep track of the smallest index where nums[mid] > target, i.e Find lower Bound.
 That index becomes the insertion position.
 
 Time Complexity: O(log n)
