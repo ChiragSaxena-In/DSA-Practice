@@ -74,6 +74,7 @@ public:
 class SolutionBinary {
 public:
     int mySqrt(int x) {
+        
         if (x == 0) return 0;
 
         int start = 1, end = x;
