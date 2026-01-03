@@ -1,6 +1,6 @@
-# LeetCode Problem Solving Journey
+# DSA Problem Solving Journey
 
-Welcome to my personal repository where I solve LeetCode problems using different programming languages.  
+Welcome to my personal repository where I solve LeetCode, GFG problems using different programming languages.  
 Currently solving problems using **C++**.  
 This repo helps me track progress, revise solutions, and sharpen problem-solving skills over time.
 
@@ -10,13 +10,14 @@ This repo helps me track progress, revise solutions, and sharpen problem-solving
 
 - Build a deep understanding of DSA (Data Structures & Algorithms)  
 - Practice consistency and clean coding  
-- Solve 150+ LeetCode problems across difficulty levels
+- Solve 150+ LeetCode, GFG problems across difficulty levels
 
 ---
 
 ##  Tools
 
 - LeetCode Online Editor  
+- GFG Online Editor  
 - VS Code  
 - GitHub for version control
 
