@@ -36,6 +36,7 @@ using namespace std;
  *                0 if num is correct
  * int guess(int num);
  */
+int guess(int num); // Assume this API is defined elsewhere
 
 class Solution {
 public:
