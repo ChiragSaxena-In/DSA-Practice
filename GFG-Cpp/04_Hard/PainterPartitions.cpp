@@ -103,5 +103,5 @@ class Solution {
     Related Problems:
     - Book Allocation Problem
     - Split Array Largest Sum
-    - Allocate Minimum Number of Pages
+    - Allocate Minimum Number of Pages.
 */
