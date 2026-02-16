@@ -1,3 +1,6 @@
+#include <vector>
+using namespace std;
+
 /*
 =========================================================
 Problem: Middle Swap in 4x4 Matrix
@@ -87,3 +90,18 @@ class Solution {
         
         while (start < end) {
             
+            // Swap middle rows
+            for (int i = 0; i < 4; i++) {
+                swap(arr[start][i], arr[end][i]);
+            }
+            
+            // Swap middle columns
+            for (int i = 0; i < 4; i++) {
+                swap(arr[i][start], arr[i][end]);
+            }
+            
+            start++;
+            end--;
+        }
+    }
+};
