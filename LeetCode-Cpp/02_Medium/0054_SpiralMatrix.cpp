@@ -23,6 +23,9 @@ class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& mat) {
 
+        if (mat.empty() || mat[0].empty()) // Since mat.size() - 1 and mat[0].size - 1 doesnt exist for an empty matrix
+            return {};
+
         vector<int> res;
 
         int top = 0;
